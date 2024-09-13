@@ -1,0 +1,56 @@
+function Sum()
+{
+	return (2+3);
+}
+
+function Difference()
+{
+	return (16-12);
+}
+
+function Product()
+{
+	return (12*9);
+}
+
+function Quotient()
+{
+	return (23/13);
+}
+
+document.write("The sum of 2+3=" + Sum());
+document.write("The difference of 16-12=" + Difference());
+document.write("The product of 12*9=" + Product());
+document.write("The quotient of 12*9=" + Quotient());
+
+
+
+body
+{
+	background-color: blue;
+}
+
+h1
+{
+	color: white;
+	margin-left: 40px;
+}
+
+
+
+
+
+<!DOCTYPE html>
+
+<html> 
+
+<head>
+	<title>Introduction to HTML, CSS, and JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="index.css" media="screen"></link>
+</head>	
+
+<body>
+	<script type="text/javascript" src="arithmetic.js"></script>	
+</body>
+
+</html>
